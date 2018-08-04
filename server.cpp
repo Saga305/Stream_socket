@@ -72,7 +72,7 @@ void *processRequest(void *sock)
 			return fp;
 		}
 
-		while(1)
+		while(true)
 		{
 			//Read file in chunks of 256 bytes
 			memset(buff,'\0',buffSize);
